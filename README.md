@@ -18,13 +18,13 @@ git-tutorial
 
 1. Create a new file in the project directory. Name it `new.cpp`
 2. Copy this code into the file:
-```
-int main() {
-	cout << "Hello World!";
-	int i = 0;
-	return 0;
-}
-```
+   ```
+   int main() {
+      cout << "Hello World!";
+      int i = 0;
+      return 0;
+   }
+   ```
 3. In the command line type `git status`. You will see that the file `new.cpp` is currently untracked and needs to be added to git.
 4. Type `git add new.cpp` to add the file to git.
 5. Run `git status` again and note that `new.cpp` is now ready to be commited.
