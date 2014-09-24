@@ -21,6 +21,7 @@ git-tutorial
 ```
 int main() {
 	cout << "Hello World!";
+	int i = 0;
 	return 0;
 }
 ```
@@ -59,7 +60,23 @@ All you have left to do is run `git push`
 
 ###Branching
 1. To view all of the branches type `git branch`
-2. Lets add a new branch. Run `git branch "Testing"`.
+2. Lets add a new branch. Run `git branch "Testing"`
 This creates a Testing branch.
+3. To switch to the Testing branch, type `git checkout Testing`.
+You can get back to the master branch at any time by running `git checkout master`
+4. Now that we are in the Testing branch, lets make some changes.
+Change new.cpp to be:
+```
+int main() {
+	cout << "Hello World!";
+	int i = 0;
+	
+	if (i == 0) {
+		cout << "All tests passed.";
+	}
+	return 0;
+}
+```
+5. [Commit](#committing-a-file) these changes into the testing branch.
 
 
