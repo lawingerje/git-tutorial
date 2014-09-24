@@ -39,4 +39,13 @@ You will be prompted for your github username and password.
 1. Hello World is such a boring message. Change it to `"Hello World!!!!!!!"`.
 2. Call `git add new.cpp` again to stage the file for commit. Note you can do 
 `git add *` to add all changed files.
-3. Commit and push exactly the same as we did [above](#committing-a-file).
+3. Commit and push exactly the same as we did [above](#committing-a-file)
+but use a message of `"Added more exclamation points"` this time.
+
+###Reverting
+1. Your co-worker thinks that the extra exclamation points are excessive
+and frankly poor English. Lets revert that change.
+
+
+
+
