@@ -78,5 +78,14 @@ int main() {
 }
 ```
 5. [Commit](#committing-a-file) these changes into the testing branch.
+<<<<<<< HEAD
+=======
+
+###Merging
+1. Now it's time to bring our extremely effective tests back to the master branch.
+First switch back to the master branch with `git checkout master`
+2. Merge Testing into master with `git merge Testing`.
+
+>>>>>>> Testing
 
 
