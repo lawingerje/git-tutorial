@@ -45,7 +45,21 @@ but use a message of `"Added more exclamation points"` this time.
 ###Reverting
 1. Your co-worker thinks that the extra exclamation points are excessive
 and frankly poor English. Lets revert that change.
+2. Run `git log` to view the recent commits.
+Each commit will have a id number (a long string of characters).
+You can revert specific commits by using their id numbers.
+3. Run `git revert <ID of the exclamation point commit>`.
+Note you only need to use the first few characters of the id.
+5 characters should be fine.
+4. Git will launch your default text editor for you to
+write the commit message. Type a message and save this
+file to finish reverting.
+5. By default git automatically commits this revert.
+All you have left to do is run `git push`
 
-
+###Branching
+1. To view all of the branches type `git branch`
+2. Lets add a new branch. Run `git branch "Testing"`.
+This creates a Testing branch.
 
 
